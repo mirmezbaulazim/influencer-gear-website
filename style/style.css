@@ -10,12 +10,12 @@
     --thard-color:#0A0826;
     --forth-color:#FFFFFF;
     /* Font Style   */
-    --first-font:1.5rem;
-    --second-font:1rem;
-    --third-font:1.75rem;
-    --forth-font:0.8rem;
-    --fifth-font:2.3rem;
-    --sixth-font:3.25rem;
+    --first-font:1.5rem; /*24px*/
+    --second-font:1rem; /*16px*/
+    --third-font:1.75rem; /*28px*/
+    --forth-font:0.8rem; /*14px*/
+    --fifth-font:2.3rem; /*38px*/
+    --sixth-font:3.25rem; /*52px*/
 }
 .nav-container{
     display: flex;
@@ -52,6 +52,7 @@
 .banner-discription{
     font-size: var(--second-font);
     margin-top: 20px;
+    width: 500px;
 }
 .btn-prymary{
     font-size:var(--second-font) ;
@@ -63,7 +64,7 @@
     margin-top: 20px;
 }
 .banner-img{
-    background-image: url(./images/Circle\ design.svg);
+    background: url(./images/Circle\ design.svg);
     background-repeat: no-repeat;
     width: 500px;
     height: 500px;
@@ -81,16 +82,26 @@
     }
     .banner{
         flex-direction: column-reverse;
-        width: 100%;
-        padding: 50px;
+        padding: 30px;
+        text-align: center;
     }
-    .banner-img {
+    .banner-container{
         width: 100%;
-        padding: 20px;
+    }
+    .banner-titel{
+        font-size: var(--third-font);
+    }
+    .banner-discription{
+        font-size: var(--forth-font);
+        width: auto;
+    }
+    .banner-img{
+        background-size: 350px ;
+        background-position-x: center;
+        height: auto;
     }
     .banner-img img{
-        width: 100%;
-        margin: 0;
+        width: 300px;
         margin-top: 30px;
     }
 }
