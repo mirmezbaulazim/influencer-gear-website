@@ -96,12 +96,12 @@
         width: auto;
     }
     .banner-img{
-        background-size: 350px ;
+        background-size: 70% ;
         background-position-x: center;
         height: auto;
     }
     .banner-img img{
-        width: 300px;
+        width: 60%;
         margin-top: 30px;
     }
 }
