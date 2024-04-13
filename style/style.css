@@ -210,9 +210,10 @@ footer ul{
         width: auto;
     }
     .banner-img{
-        /* background-size: 70% ; */
+        background-size: 70% ;
         background-position-x: center;
-        height: auto;
+        height: 370px;
+        width: 500px;
     }
     .banner-img img{
         width: 60%;
