@@ -17,6 +17,7 @@
     --fifth-font:2.3rem; /*38px*/
     --sixth-font:3.25rem; /*52px*/
 }
+/* Nav Seciton Style  */
 .nav-container{
     display: flex;
     justify-content: space-between;
@@ -36,6 +37,7 @@
     text-decoration: none;
     color: black;
 }
+/* Banner Section Style  */
 .banner{
     display: flex;
     padding:30px 150px;
@@ -73,16 +75,27 @@
     width: 400px;
     margin: 50px;
 }
+/* Company Section Style  */
+.company{
+    text-align: center;
+    margin-top: 20px;
+}
+.company img{
+    margin-right: 50px;
+}
+/* Responsive For Mobile  */
 @media screen and (max-width:576px) {
-    *{
+    /* *{
         overflow-x: hidden;
-    }
+    } */
+    /* Responsive Navbar  */
     .nav-container{
         padding: 20px;
     }
     .list-items{
         display: none;
     }
+    /* Responsive Banner  */
     .banner{
         flex-direction: column-reverse;
         padding: 30px;
@@ -106,5 +119,12 @@
     .banner-img img{
         width: 60%;
         margin-top: 30px;
+    }
+    /* Responsive Company  */
+    .company{
+        flex-wrap: wrap;
+    }
+    .company img{
+        margin: 5px 10px;
     }
 }
