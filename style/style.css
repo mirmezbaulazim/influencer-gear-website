@@ -130,9 +130,9 @@
 }
 /* Responsive For Mobile  */
 @media screen and (max-width:576px) {
-    /* *{
+    *{
         overflow-x: hidden;
-    } */
+    }
     /* Responsive Navbar  */
     .nav-container{
         padding: 20px;
