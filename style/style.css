@@ -211,13 +211,13 @@ footer ul{
     }
     .banner-img {
         width: 100%;
-        height: 390px;
-        background-size: 370px;
+        height: 370px;
+        background-size: 320px;
         /* border: 2px solid black; */
     }
     .banner-img img{
-        width: 300px;
-        margin: 35px;
+        width: 280px;
+        margin: 20px;
     }
     .company{
         flex-wrap: wrap;
