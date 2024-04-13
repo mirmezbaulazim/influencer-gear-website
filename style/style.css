@@ -210,7 +210,14 @@ footer ul{
         width: auto;
     }
     .banner-img {
-        background-image: none;
+        width: 100%;
+        height: 390px;
+        background-size: 370px;
+        /* border: 2px solid black; */
+    }
+    .banner-img img{
+        width: 300px;
+        margin: 35px;
     }
     .company{
         flex-wrap: wrap;
