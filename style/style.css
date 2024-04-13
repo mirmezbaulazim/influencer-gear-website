@@ -74,6 +74,9 @@
     margin: 50px;
 }
 @media screen and (max-width:576px) {
+    *{
+        overflow: hidden;
+    }
     .nav-container{
         padding: 10px;
     }
