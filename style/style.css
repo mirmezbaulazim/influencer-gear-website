@@ -37,8 +37,7 @@
 }
 @media screen and (max-width:576px) {
     .nav-container{
-        padding: 5px;
-        justify-content: center;
+        padding: 10px;
     }
     .list-items{
         display: none;
